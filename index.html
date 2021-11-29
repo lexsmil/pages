@@ -259,10 +259,10 @@ Start Demo</a></li>
             <div class="justify-content-between justify-content-lg-center text-center align-items-center row row-cols-2 row-cols-lg-4 gy-3 mt-2" data-aos="fade-up" data-aos-delay="600">
                 <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="350"><img class="img-fluid" src="img/marc-formelle.png" alt="Marc Formelle"></div>
                 <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="500"><img class="img-fluid" src="img/ziko.png" alt="ZIKO"></div>
-                <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="400"><img class="img-fluid" src="img/kravt.png" alt=""></div>
-                <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="700"><img class="img-fluid" src="img/evroopt.png" alt=""></div>
-                <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="550"><img class="img-fluid" src="img/belwest.png" alt=""></div>
-                <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="600"><img class="img-fluid" src="img/kfc.png" alt=""></div>
+                <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="400"><img class="img-fluid" src="img/kpabt.png" alt="кравт"></div>
+                <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="700"><img class="img-fluid" src="img/oma.png" alt="ОМА"></div>
+                <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="550"><img class="img-fluid" src="img/civitta.png" alt="civitta"></div>
+                <div class="col p-3 p-lg-4" data-aos="zoom-in" data-aos-delay="550"><img class="img-fluid" src="img/belwest.png" alt="belwest"></div>
             </div>
         </div>
     </div>
@@ -288,21 +288,43 @@ Start Demo</a></li>
 
         <div class="clients-slider" data-aos="fade-up" data-aos-delay="300">
             <div class="swiper-wrapper">
-            @@loop('_clients-slider__item.html', [
-                {
-                    "i": "1",
-                    "picture": "img/ava-voronchuk.png",
-                    "name":	"Ekaterina Voronchuk",
-                    "post":	"Mark Formelle,<br>Marketing Director",
-                    "description": "<p>The work of an analyst in retail often comes down only to analyzing of the deviation of the "fact" from the "plan" or the deviation of the "fact" from the "fact" of past periods.</p><p>And what about comparing your performance with the "fact" of your competitors? This option was not available before,  but today it is provided by OpenBusiness. The analytical platform opens your eyes to such issues as the reasons for the growth or decline in sales, the success of advertising campaigns in comparison with other market players, as well as who our “ the most aggressive” competitor really is.</p>"
-                },{
-                    "i": "2",
-                    "picture": "img/ava-bulah.png",
-                    "name":	"Alexander Bulah",
-                    "post":	"FinTechHub, CEO",
-                    "description": "<p>Insights help you stay ahead, be faster, more efficient and earn more. The OpenBusiness platform allows you to put analysis of your competitors’ performance into casual practice.</p>"
-                }
-            ])
+            <div class="swiper-slide">
+    <div class="clients-slider__item p-3 p-lg-4 border rounded">
+        <div class="d-flex align-items-center">
+            <div class="clients-slider__picture rounded-circle flex-shrink-0">
+                
+                    <img alt="" src="img/ava-voronchuk.png" class="w-100 h-100">
+                
+            </div>
+            <div class="d-flex flex-column ms-2 ms-lg-3">
+                <div class="clients-slider__name fw-bold">Ekaterina Voronchuk</div>
+                <div class="clients-slider__post">Mark Formelle,<br>Marketing Director</div>
+            </div>
+        </div>
+        <div class="clients-slider__description mt-8 mt-lg-3 overflow-hidden collapse" id="clients-slider__description1">
+            <p>The work of an analyst in retail often comes down only to analyzing of the deviation of the "fact" from the "plan" or the deviation of the "fact" from the "fact" of past periods.</p><p>And what about comparing your performance with the "fact" of your competitors? This option was not available before,  but today it is provided by OpenBusiness. The analytical platform opens your eyes to such issues as the reasons for the growth or decline in sales, the success of advertising campaigns in comparison with other market players, as well as who our “the most aggressive” competitor really is.</p>
+        </div>
+        <button class="btn btn-link collapsed clients-slider__description-toggle p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#clients-slider__description1" aria-expanded="false" aria-controls="clients-slider__description1">Read more</button>
+    </div>
+</div><div class="swiper-slide">
+    <div class="clients-slider__item p-3 p-lg-4 border rounded">
+        <div class="d-flex align-items-center">
+            <div class="clients-slider__picture rounded-circle flex-shrink-0">
+                
+                    <img alt="" src="img/ava-bulah.png" class="w-100 h-100">
+                
+            </div>
+            <div class="d-flex flex-column ms-2 ms-lg-3">
+                <div class="clients-slider__name fw-bold">Alexander Bulah</div>
+                <div class="clients-slider__post">FinTechHub, CEO</div>
+            </div>
+        </div>
+        <div class="clients-slider__description mt-8 mt-lg-3 overflow-hidden collapse" id="clients-slider__description2">
+            <p>Insights help you stay ahead, be faster, more efficient and earn more. The OpenBusiness platform allows you to put analysis of your competitors’ performance into casual practice.</p>
+        </div>
+        <button class="btn btn-link collapsed clients-slider__description-toggle p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#clients-slider__description2" aria-expanded="false" aria-controls="clients-slider__description2">Read more</button>
+    </div>
+</div>
             </div>
             <div class="swiper-pagination d-flex justify-content-center mt-3 mt-lg-6"></div>
         </div>
