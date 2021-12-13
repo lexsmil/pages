@@ -87,7 +87,7 @@
 			<div class="row justify-content-xl-center">
 				<div class="main__content col-xl-8">
 					<div class="d-flex justify-content-between align-items-center mb-2 mb-lg-3 small">
-						<a href="#" class="text-primary text-decoration-none">
+						<a href="#" onclick="history.back(); return false;" class="text-primary text-decoration-none">
 							<svg class="wh-15">
   <use xlink:href="img/sprite.svg#sprite--arrow-left" />
 </svg> <span class="ms-2">Investor Relations</span>
@@ -304,7 +304,7 @@
                         </div>
                         <div class="col-12 col-lg-6 floating-label">
                             <div class="floating-label">
-                                <input class="form-control" placeholder="Your E-mail" type="email" value="err">
+                                <input class="form-control" placeholder="Your E-mail" type="email" value="">
                                 <label>Your E-mail</label>
                             </div>
                         </div>
@@ -326,7 +326,7 @@
                         <div class="col-12 col-sm-5">
                             <button class="btn btn-primary rounded-pill w-100" type="submit">Submit</button>
                         </div>
-                        <div class="text-danger small text-center text-sm-end mt-2 mt-sm-0 col-12 col-sm-7">Fill in all the fields</div>
+                        <div class="d-none text-danger small text-center text-sm-end mt-2 mt-sm-0 col-12 col-sm-7">Fill in all the fields</div>
                     </div>
                 </form>
 
